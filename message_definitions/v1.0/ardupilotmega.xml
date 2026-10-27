@@ -82,13 +82,12 @@
       <entry value="86"
        name="MAV_CMD_NAV_DIVE_TO_TARGET"
        hasLocation="true"
-       isDestination="true">
+       isDestination="false">
 
         <description>
           Navigate a fixed-wing aircraft to a target coordinate using a
           controlled nose-first dive. The vehicle will align to the target
-          and execute a guided dive profile until impact or abort conditions
-          are met. Mission execution will continue once the dive completes.
+          and execute a guided dive profile until impact. 
         </description>
 
         <param index="1"
@@ -413,7 +412,7 @@
              isDestination="true">
 
         <description>
-          Command a fixed-wing aircraft to perform a nose-first dive
+          Command a fixed-wing aircraft to perform a dive
           toward a target coordinate.
         </description>
 
